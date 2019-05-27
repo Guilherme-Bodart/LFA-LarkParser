@@ -16,7 +16,7 @@ Implementação de um parser descendente recursivo para uma Linguagem Livre de C
 <p>Linguagem de gramática avançada, baseada em EBNF</p>
 <p>Três algoritmos de análise para escolher: Earley, LALR (1) e CYK</p>
 <p>Construção automática de árvore, inferida da sua gramática</p>
-<p>Lexer unicode rápido com suporte a regexp e contagem automática de linhas</p>
+<p>"Fast unicode lexer" com suporte a regexp e contagem automática de linhas</p>
 <p>O código de Lark está hospedado no Github: https://github.com/lark-parser/lark</p>
 
 <pre><code class="bash">$ pip install lark-parser</code></pre>
