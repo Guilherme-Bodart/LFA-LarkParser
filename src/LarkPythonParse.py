@@ -5,7 +5,7 @@ grammar = """
     ?term : (factor) (("*" | "/" | "//" | "%") (factor))*
     ?factor : (base) ("^" (factor))?
     ?base : ("+" | "-") (base) | NUMBER | "(" expr ")"
-    %import common.SIGNED_NUMBER -> NUMBER
+    %import common.NUMBER
     %import common.WS_INLINE
     %ignore WS_INLINE
 """
