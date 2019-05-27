@@ -47,7 +47,7 @@ if __name__ == '__main__':
     ?factor : (base) ("^" (factor))?
     ?base : ("+" | "-") (base) | NUMBER | "(" expr ")"</code></pre>
 
-<p>     Nesta parte do código foi coloca "?" na frente das gramáticas para que fosse resumido o resultado, caso queira ver a árvore </p>
+<p>     Nesta parte do código foi colocado "?" na frente das gramáticas para que fosse resumido o resultado, caso queira ver a árvore </p>
 <p>mais completa, apenas retire todas as "?" da frente, que não interfira no código em si.
 
 <h3>Gramática do Trabalho</h3>
