@@ -41,13 +41,11 @@ if __name__ == '__main__':
 
 <p> O código acima mostra a main, uma main simples apenas para escrever a expressão e rodar o código principal até ser pressionado apenas o "Enter"</p>
 
-<pre><code class="bash">
-    ?start:expr 
+<pre><code class="bash">?start:expr 
     ?expr: (term) (("+" | "-") (term))*
     ?term : (factor) (("*" | "/" | "//" | "%") (factor))*
     ?factor : (base) ("^" (factor))?
-    ?base : ("+" | "-") (base) | NUMBER | "(" expr ")"
-</code></pre>
+    ?base : ("+" | "-") (base) | NUMBER | "(" expr ")"</code></pre>
 
 <p>     Nesta parte do código foi coloca "?" na frente das gramáticas para que fosse resumido o resultado, caso queira ver a árvore </p>
 <p>mais completa, apenas retire todas as "?" da frente, que não interfira no código em si.
