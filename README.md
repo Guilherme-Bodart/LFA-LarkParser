@@ -7,7 +7,7 @@ Implementação de um parser descendente recursivo para uma Linguagem Livre de C
 - **Ambiente de desenvolvimento**: Visual Studio Code (versão 1.33.1)
 
 
-###Lark - Texto copiado de "https://lark-parser.readthedocs.io/en/latest/" 
+### Lark - Texto copiado de "https://lark-parser.readthedocs.io/en/latest/"
 
 <p>Lark pode analisar qualquer gramática livre de contexto.</p>
 
